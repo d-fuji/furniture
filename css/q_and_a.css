@@ -1,0 +1,219 @@
+body{
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 1661px;
+  background: #FCFCFC 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.header #logo{
+  margin-top: 15px;
+  margin-left: 88px;
+  width: 62px;
+  height: 35px;
+  text-align: center;
+  font: SemiBold 16px/16px Gill Sans;
+  letter-spacing: 0;
+  color: #918F89;
+  opacity: 1;
+  float: left;
+}
+
+.header #nav{
+  margin-top: 25px;
+  margin-right: 90px;
+  width: 335px;
+  height: 35px;
+  opacity: 1;
+  float: right;
+  }
+
+.header #about{
+  margin-top: 10px;
+  width: 43px;
+  height: 22px;
+  float: left;
+  text-align: left;
+  font: ExtraLight 16px/22px Noto Sans;
+  letter-spacing: 0;
+  color: #272727;
+  opacity: 0.5;
+}
+
+.header #news{
+  margin-left: 107px;
+  width: 38px;
+  height: 22px;
+  float: left;
+  text-align: left;
+  font: ExtraLight 16px/22px Noto Sans;
+  letter-spacing: 0;
+  color: #272727;
+  opacity: 1;
+}
+
+.header #qa{
+  margin-left: 114px;
+  width: 33px;
+  height: 22px;
+  float: left;
+  text-align: left;
+  font: ExtraLight 16px/22px Noto Sans;
+  letter-spacing: 0;
+  color: #272727;
+  opacity: 0.5;
+}
+
+.img_8_space{
+  position: relative;
+  width: 1280px;
+  height: 415px;
+  margin-top: 10px;
+  float: left;
+}
+
+.img_8_space img{
+  position: absolute;
+  width: 100%;
+  float: left;
+}
+
+.img_8_space div{
+  position: absolute;
+  margin-top: 179px;
+  margin-left: 228px;
+  width: 80px;
+  height: 29px;
+}
+
+.img_8_space div h1{
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.img_8_space div h2{
+  margin-bottom: : 8px;
+  margin-left: 12px;
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  opacity: 0.1;
+}
+
+#qa_head{
+  margin-top: 93px;
+  margin-left: 570.5px;
+  width: 139px;
+  height: 19px;
+  text-align: left;
+  font-size: 21px;
+  letter-spacing: 2.1px;
+  color: #3B3B3B;
+  opacity: 1;
+  float: left;
+}
+
+
+.q_and_a_content{
+  position: absolute;
+  margin-top: 667px;
+  margin-left: 403px;
+  width: 474px;
+  height: 587px;
+  float: left;
+}
+
+.q_and_a_content div{
+  width: 267px;
+  height: 19px;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #3B3B3B;
+  opacity: 1;
+  margin-bottom: 100px;
+}
+
+.footer{
+  position: absolute;
+  width: 1280px;
+  height: 284px;
+  margin-top: 1340px;
+  background-color: #918F89;
+}
+
+.footer #logo{
+  position: relative;
+  margin-top: 116px;
+  margin-left: 227px;
+  width: 77px;
+  height: 48px;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  float: left;
+}
+
+.footer #about{
+  position: relative;
+  margin-top: 136px;
+  margin-left: 422px;
+  width: 48px;
+  height: 24px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  float: left;
+}
+
+.footer #news{
+  position: relative;
+  margin-top: 133px;
+  margin-left: 102px;
+  width: 43px;
+  height: 24px;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  float: left;
+}
+
+.footer #qa{
+  position: relative;
+  margin-top: 133px;
+  margin-left: 103px;
+  width: 37px;
+  height: 24px;
+  text-align: left;
+  font-size:18px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  float: left;
+}
+
+.footer #copy_right{
+  position: absolute;
+  margin-top: 235px;
+  margin-left: 599px;
+  width: 82px;
+  height: 9px;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  opacity: 1;
+  float: left;s
+}
