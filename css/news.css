@@ -1,97 +1,57 @@
 body{
-  top: 0px;
-  left: 0px;
+  position: absolute;
   width: 1280px;
   height: 1661px;
-  background: #FCFCFC 0% 0% no-repeat padding-box;
-  opacity: 1;
-}
-
-/* header終了 */
-.header{
-  width: 1280px;
-  height: 60px;
   margin: 0px;
-  
+  font-family: Noto Sans;
 }
 
-#logo{
+/* headerコピペ完了 */
+.header{
+  position: relative;
+  width: 1280px;
+  height: 60px; 
+}
+
+.header p{
   position: absolute;
   margin-top: 15px;
   margin-left: 88px;
   width: 62px;
-  height: 35px;
-  text-align: center;
-  text-align: center;
+  height: 35px;  
   font-size: 16px;
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
-  font-weight: 400;
-  font-style: normal; 
-  letter-spacing: 0;
   color: #918F89;
-  opacity: 1;
-  }
-
-#nav{
-  position: absolute;
-  margin-top: 25px;
-  margin-left: 855px;
-  width: 335px;
-  height: 35px;
+  text-align: center;
 }
 
-#nav a{
+.header ul{
+  position: absolute;
+  width: 336px;
+  height: 35px;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 25px 89px 0px 855px;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.header ul li a{
   text-decoration: none;
 }
 
-#h_about{
-  position: absolute;
-  margin-top: 3px;
-  margin-left: 0px;
-  width: 43px;
-  height: 22px;
-  font-size: 16px;
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
-  font-weight: 400;
-  font-style: normal; 
-  letter-spacing: 0;
-  color: #272727;
-  opacity: 0.5;
+.header ul #list_1{
+  padding-top: 3px;
+  border-bottom: 3px solid black;
 }
 
-#h_news{
-  position: absolute;
-  margin-top: 0px;
-  margin-left: 150px;
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
-  font-weight: 400;
-  font-style: normal; 
-  font-size: 16px;
-  color: #272727;
-  opacity: 0.5;
-
-}
-#h_qa{
-  position: absolute;
-  margin-top: 0px;
-  margin-left: 302px;
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
-  font-weight: 400;
-  font-style: normal; 
-  font-size: 16px;
-  color: #272727;
-  opacity: 0.5;
-}
-/* header終了 */
-
-/* でかい写真ゾーン */
 .img_7_space{
   position: relative;
   width: 1280px;
   height: 415px;
 }
 
-.img_7_space p{
+.img_7_space h1{
   position: absolute;
   top: 179px;
   left: 227px;
@@ -106,8 +66,6 @@ body{
   margin: 0px;
 }
 
-/* でかい写真ゾーン */
-
 /* newsゾーン終了 */
 .news{
   position: relative;
@@ -115,24 +73,34 @@ body{
   height: 902px;
 }
 
-#news_head{
+.news h1{
   position: absolute;
-  margin-top: 86px;
+  margin-top: 0px;
   margin-left: 592px;
+}
+
+
+.news div{
+  margin-top: 86px;
+}
+
+.news div img{
+  width: 334px;
+  height: 387px;
 }
 
 #img_4{
   position: relative;
-  margin-top: 195px;
+  margin-top: 79px;
   margin-left: 89px;
 }
 
 #img_4_cover{
   position: absolute;
+  top: -7px;
+  left: 89px;
   width: 334px;
   height: 387px;
-  top: 195px;
-  left: 89px;
 }
 
 #img_4_cover:hover{
@@ -147,7 +115,7 @@ body{
 
 #img_5_cover{
   position: absolute;
-  top: 195px;
+  top: -7px;
   left: 478px;
   width: 334px;
   height: 387px;
@@ -167,7 +135,7 @@ body{
   position: absolute;
   width: 334px;
   height: 387px;
-  top: 195px;
+  top: -7px;
   left: 865px;
 }
 
@@ -176,7 +144,7 @@ body{
   opacity: 0.6;
 }
 
-/* footer終了 */
+/* footerのコピペ完了 */
 .footer{
   position: relative;
   width: 1280px;
@@ -184,7 +152,7 @@ body{
   background-color: #918F89;
 }
 
-#f_logo{
+.footer p{
   position: absolute;
   margin-top: 116px;
   margin-left: 227px;
@@ -193,56 +161,27 @@ body{
   float: left;
   color: #FFFFFF;
   font-size: 22px;
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-#f_about{
+.footer ul{
   position: absolute;
+  width: 335px;
+  height: 24px;
   margin-top: 136px;
   margin-left: 726px;
-  width: 48px;
-  height: 24px;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  float: left;
-  color: #FFFFFF;
-  font-size: 18px;
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
 }
 
-#f_news{
-  position: absolute;
-  margin-top: 133px;
-  margin-left: 876px;
-  width: 43px;
-  height: 24px;
-  float: left;
-  color: #FFFFFF;
-  font-size: 18px;
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.footer ul li a{
+  text-decoration: none;
 }
 
-#f_qa{
-  position: absolute;
-  margin-top: 133px;
-  margin-left: 1022px;
-  width: 37px;
-  height: 24px;
-  float: left;
-  color: #FFFFFF;
-  font-size: 18px;
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-#copy_right{
+#end{
   position: absolute;
   margin-top: 235px;
   margin-left: 599px;
@@ -250,13 +189,11 @@ body{
   height: 9px;
   float: left;
   font-size: 10px;
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #FFFFFF;
 
 }
-/* footer終了 */
 
 
 /* スマホ用 */
@@ -268,7 +205,7 @@ body{
     margin: 0px;
   }
   
-  /* header終了 */
+  /* headerのコピペ完了 */
   .header{
     width: 375px;
     height: 55px;
@@ -276,7 +213,7 @@ body{
     background-color: #918F89;
   }
   
-  #logo{
+  .header p{
     position: absolute;
     margin-top: 11px;
     margin-left: 154px;
@@ -285,30 +222,13 @@ body{
     font-size: 16px;
     color: #FFFFFF;
     text-align: center;
-    
     }
   
-  
-  #nav{
+  .header ul{
     display: none;
-    
   }
-  /*
-  #h_about{
-    
-  }
-  
-  #h_news{
-    
-  
-  }
-  #h_qa{
-    
-  
-  }
-  */
 
-  /* header終了 */
+
   .img_7_space{
     position: relative;
     max-width: 375px;
@@ -316,7 +236,12 @@ body{
     height: 399px;
   }
 
-  .img_7_space p{
+  .img_7_s{
+    width: 100%;
+    height: auto;
+  }
+
+  .img_7_space h1{
     position: absolute;
     top: 103px;
     left: 135px;
@@ -329,39 +254,32 @@ body{
     text-shadow: 4px 4px;
     opacity: 1;
     margin: 0px;
-
   }
-
-
-
-  .img_7{
-    width: 100%;
-    height: auto;
-  }
-
 
   .news{
     position: relative;
     width: 375px;
-    height: 1292px;
+    height: 1183px;
   }
 
-  #news_head{
+  .news h1{
     position: absolute;
-    margin-top: 70px;
-    margin-left: 140px;
+    margin-top: 0px;
+    margin-left: 149px;
     width: 96px;
     height: 29px;
+    font-size: 21px;
+  }
 
+  .news div img{
+    width: 286px;
+    height: 276px;
   }
   
   #img_4{
     position: relative;
-    margin-top: 169px;
+    margin-top: 94px;
     margin-left: 44.5px;
-    width: 286px;
-    height: 276px;
-    background: #72706A 0% 0% no-repeat padding-box;
     border: 0.800000011920929px solid #70707033; 
   }
 
@@ -369,8 +287,8 @@ body{
     position: absolute;
     width: 286px;
     height: 276px;
-    top: 169px;
-    left: 45px;
+    top: 94px;
+    left: 44.5px;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.6;
   }
@@ -379,9 +297,6 @@ body{
     position: relative;
     margin-top: 30px;
     margin-left: 44.5px;
-    width: 286px;
-    height: 276px;
-    background: #72706A 0% 0% no-repeat padding-box;
     border: 0.800000011920929px solid #70707033;
   }
 
@@ -389,8 +304,8 @@ body{
     position: absolute;
     width: 286px;
     height: 276px;
-    top: 481px;
-    left: 45px;
+    top: 406px;
+    left: 44.5px;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.6;
   }
@@ -399,9 +314,6 @@ body{
     position: relative;
     margin-top: 30px;
     margin-left: 44.5px;
-    width: 286px;
-    height: 276px;
-    background-color: #72706A;
     border: 0.800000011920929px solid #70707033;
   }
 
@@ -409,21 +321,22 @@ body{
     position: absolute;
     width: 286px;
     height: 276px;
-    top: 793px;
-    left: 45px;
+    top: 718px;
+    left: 44.5px;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.6;
   }
-  /* footer終了 */
+
+  /* footerのコピペ完了 */
   .footer{
     position: relative;
     width: 375px;
-    height: 274px;
+    height: 276px;
     background-color: #918F89;
 
   }
   
-  #f_logo{
+  .footer p{
     position: absolute;
     margin-top: 86px;
     margin-left: 153.5px;
@@ -434,20 +347,12 @@ body{
     text-align: center;
 
   }
-  
-  #f_about{
+
+  .footer ul{
     display: none;
   }
   
-  #f_news{
-    display: none;
-  }
-  
-  #f_qa{
-    display: none;
-  }
-  
-  #copy_right{
+  #end{
     position: relative;
     margin-top: 189px;
     margin-left: 146px;
@@ -459,5 +364,4 @@ body{
     color: #FFFFFF;
     opacity: 1;
   }
-  /* footer終了 */
 } 
