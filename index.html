@@ -14,12 +14,17 @@
 <body>
   <!-- header -->
   <header class="header">
-      <p>HTML CSS</p>
-      <ul>
+      <p id="header_logo">HTML CSS</p>
+      <ul id="pc_list">
         <li id="list_1"><a href="./index.html">About</a></li>
         <li id="list_2"><a href="./news.html">News</a></li>
         <li id="list_3"><a href="./q_and_a.html">Q&A</a></li>
       </ul>
+      <div class="hamburger" id="js-hamburger">
+        <span class="hamburger__line hamburger__line--1"></span>
+        <span class="hamburger__line hamburger__line--2"></span>
+        <span class="hamburger__line hamburger__line--3"></span>
+      </div>
   </header>
 
   <section class="img_1_space">
@@ -35,6 +40,13 @@
          srcset="./img/AdobeStock_1_s.png" id="img_1_s">
       <img src="./img/AdobeStock_img1.png" id="img_1">
     </picture>
+    <nav class="global-nav">
+      <ul class="global-nav__list">
+        <li class="global-nav__item"><a href="./index.html">About</a></li>
+        <li class="global-nav__item"><a href="./news.html">News</a></li>
+        <li class="global-nav__item"><a href="./q_and_a.html">Q&A</a></li>
+      </ul>
+    </nav>
   </section>
 
   <section class="proposal">
@@ -69,7 +81,7 @@
     <h1>News</h1>
     <div>
       <img src="./img/AdobeStock_img4.png" id="img_4">
-      <div id="img_4_cover"></div>
+      <!-- <div id="img_4_cover"></div> -->
       <img src="./img/AdobeStock_img5.png" id="img_5">
       <div id="img_5_cover"></div>
       <img src="./img/AdobeStock_img6.png" id="img_6"> 
@@ -97,6 +109,8 @@
     </ul>
     <p id="end">@HTMLCSS.code</p>
   </footer>
+  <script src='./js/jquery-3.4.1.min.js'></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
