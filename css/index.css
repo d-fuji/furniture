@@ -1,7 +1,7 @@
 @media screen and (min-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-  
+
 body{
-  position: absolute;
+    position: absolute;
   /*
   max-width: 1280px;
   max-height: 4194px;
@@ -132,17 +132,18 @@ body{
 }
 
 #img_3_content{
-  position: absolute;
-  margin-left: 543px;
-  margin-top: 0px;
-  width: 194px;
-  height: 29px;
-  text-align: left;
-  font-size: 25px;
-  letter-spacing: 2.5px;
-  color: #3B3B3B;
-  opacity: 1;
-  }
+    position: absolute;
+    margin-left: 543px;
+    margin-top: 0px;
+    width: 194px;
+    height: 29px;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: #3B3B3B;
+    opacity: 1;
+}
+
 
 #img_3{
   position: absolute;
@@ -338,7 +339,7 @@ body{
   color: #FFFFFF;
   font-size: 22px;
   font-weight: 400;
-  font-style: normal;
+    font-style: normal;
 }
 
 .footer ul{
@@ -376,22 +377,22 @@ body{
 
 /*スマホ用*/
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-  body{
+    body{
     position: absolute;
     margin: 0px;
     font-family: Noto Sans;
-  }
-  
-  .header{
+    }
+    
+    .header{
     position: absolute;
     width: 375px;
     height: 55px;
     margin: 0px;
     background-color: #918F89;
     z-index: 400;
-  }
-  
-  .header p{
+    }
+
+    .header p{
     position: absolute;
     margin-left: 41%;
     margin-top: 2%;
@@ -403,12 +404,12 @@ body{
     }
 
     #pc_list{
-      display: none;
+    display: none;
     }
 
   /* ハンバーガーメニュ */
 
-  .global-nav {
+    .global-nav {
     position: absolute;
     left: 0;
     top: -244px;
@@ -418,29 +419,29 @@ body{
     transition: all 0.6s;
     overflow-y: auto;
     opacity: 0.8;
-  }
+    }
 
-  .hamburger {
+    .hamburger {
     position: absolute;
     right: 0;
     margin-right: 20px;
     top: 0;
     width: 36px; 
     height: 22px;
-  }
+    }
 
-  .global-nav__list {
+    .global-nav__list {
     list-style: none;
     padding: 0px;
     margin: 0px;
-  }
+    }
 
-  .global-nav__item {
+    .global-nav__item {
     text-align: center;
     top: 0;
-  }
+    }
 
-  .global-nav__item a {
+    .global-nav__item a {
     top: 0;
     height: 56px;
     padding-top: 24px;
@@ -448,64 +449,64 @@ body{
     border-bottom: 1px solid #eee;
     text-decoration: none;
     color: #FFFFFF;;
-  }
+    }
 
-  .global-nav__item a:hover {
+    .global-nav__item a:hover {
     background-color: #eee;
-  }
+    }
 
-  .hamburger__line {
+    .hamburger__line {
     position: absolute;
     left: 11px;
     width: 36px;
     height: 1px;
     background-color: #FFFFFF;
     transition: all .6s;
-  }
-  .hamburger__line--top {
+    }
+    .hamburger__line--top {
     top: 14px;
-  }
-  .hamburger__line--middle {
+    }
+    .hamburger__line--middle {
     top: 26px;
-  }
-  .hamburger__line--bottom {
+    }
+    .hamburger__line--bottom {
     top: 38px;
-  }
-
+    }
+    
   /* 表示された時用のCSS */
-  .nav-open .global-nav {
+    .nav-open .global-nav {
     top:0;
     margin-top: 55px
-  }
-
-  .nav-open .hamburger__line--top {
+    }
+    
+    .nav-open .hamburger__line--top {
     transform: rotate(45deg);
     top: 26px;
-  }
-  .nav-open .hamburger__line--middle {
+    }
+    .nav-open .hamburger__line--middle {
     width: 0px;
     left: 50%;
-  }
-  .nav-open .hamburger__line--bottom {
+    }
+    .nav-open .hamburger__line--bottom {
     transform: rotate(-45deg);
     top: 26px;
-  }
-
-  .img_1_space{
+    }
+    
+    .img_1_space{
     position: relative;
     margin: 0;
     width: 375px;
     height: 647px;
     overflow: hidden;
-  }
-
-  .img_1{
+    }
+    
+    .img_1{
     width: 100%;
     height: auto;
-  }
+    }
 
 
-  .img_1_space #comment_m{
+    .img_1_space #comment_m{
     position: absolute;
     top: 148px;
     margin: 0px;
@@ -514,16 +515,16 @@ body{
     font-size: 39px;
     background-color: rgb(0, 0, 0, 0);
     padding: 0;
-  }
-  .img_1_space h1::before{
+    }
+    .img_1_space h1::before{
     content: "";
-  }
+    }
 
-  .img_1_space h1 span{
+    .img_1_space h1 span{
     display: inline;
-  }
+    }
 
-  .img_1_space #comment_m .first_line{
+    .img_1_space #comment_m .first_line{
     height: 58px;
     background-color: #FFFFFF;
     display: inline-block;
@@ -531,9 +532,9 @@ body{
     opacity: 0.6;
     padding-top: 19px;
     width: 82px;
-  }
+    }
 
-  .img_1_space #comment_m .second_line{
+    .img_1_space #comment_m .second_line{
     height: 58px;
     background-color: #FFFFFF;
     display: block;
@@ -541,9 +542,9 @@ body{
     padding-left: 54px;
     opacity: 0.6;
     padding-top: 19px;
-  }
+    }
 
-  .img_1_space #comment_m .third_line{
+    .img_1_space #comment_m .third_line{
     height: 58px;
     background-color: #FFFFFF;
     display: block;
@@ -552,57 +553,56 @@ body{
     opacity: 0.6;
     padding-top: 19px;
     width: 119px;
-  }
+    }
 
-  .proposal{
+.proposal{
     position: relative;
     width: 375px;
     height: 812px;
-  }
-  
-  #img_2{
+    }
+    #img_2{
     position: absolute;
     margin-top: 405px;
     margin-left: 44.5px;
     width: 286px;
     height: 266px;
-  }
-  
-  #img_2_top{
+    }
+
+    #img_2_top{
     position: absolute;
     margin-top: 18%;
     margin-left: 22%;
     width: 249px;
     height: 29px;
     font-size: 25px;
- 
-  }
+    }
 
-  .proposal p .change_line{
+    .proposal p .change_line{
     display: inline;
-  }
+    }
 
-  #img_2_content{
+    #img_2_content{
     position: absolute;
     margin-top: 131px;
-    margin-left: 4%;
+    margin-left: 5%;
     text-align: center;
     font-size: 14px;
     letter-spacing: 0.42px;
-    width: 358px;
-    height: 224px;
+    width: 300px;
+    height: 250px;
     line-height: 35px;
-  }
-  
-  .chair{
+
+    }
+    
+    .chair{
     position: relative;
     width: 375px;
     height: 527px;
 
 
-  }
-  
-  #img_3_content{
+    }
+    
+    #img_3_content{
     position: absolute;
     margin-top: 0px;
     margin-left: 27%;
@@ -610,8 +610,8 @@ body{
     height: 29px;
     font-size: 25px;
     }
-  
-  #img_3{
+    
+    #img_3{
     position: absolute;
     margin-top: 65px;
     margin-left: 8px;
@@ -619,36 +619,36 @@ body{
     height: 290px;
     display: inline-block;
     font-size: 25px;
-  }
-  
-  .news{
+    }
+    
+    .news{
     position: relative;
     width: 375px;
     height: 1183px;
-  }
+    }
 
-  .news h2{
+    .news h2{
     position: absolute;
     margin-top: 0px;
     margin-left: 149px;
     width: 78px;
     height: 29px;
     font-size: 25px;
-  }
+    }
 
-  .news div img{
+    .news div img{
     width: 286px;
     height: 276px;
-  }
-  
-  #img_4{
+    }
+    
+    #img_4{
     position: relative;
     margin-top: 94px;
     margin-left: 44.5px;
     border: 0.800000011920929px solid #70707033; 
-  }
+    }
 
-  #img_4_cover{
+    #img_4_cover{
     position: absolute;
     width: 286px;
     height: 276px;
@@ -656,16 +656,16 @@ body{
     left: 44.5px;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.6;
-  }
-  
-  #img_5{
+    }
+    
+    #img_5{
     position: relative;
     margin-top: 30px;
     margin-left: 44.5px;
     border: 0.800000011920929px solid #70707033;
-  }
+    }
 
-  #img_5_cover{
+    #img_5_cover{
     position: absolute;
     width: 286px;
     height: 276px;
@@ -673,16 +673,16 @@ body{
     left: 44.5px;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.6;
-  }
-  
-  #img_6{
+    }
+    
+    #img_6{
     position: relative;
     margin-top: 30px;
     margin-left: 44.5px;
     border: 0.800000011920929px solid #70707033;
-  }
+    }
 
-  #img_6_cover{
+    #img_6_cover{
     position: absolute;
     width: 286px;
     height: 276px;
@@ -690,10 +690,10 @@ body{
     left: 44.5px;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.6;
-  }
-  
-  
-  .news a{
+    }
+    
+    
+    .news a{
     position: absolute;
     margin-top: 20px;
     margin-left: 135px;
@@ -701,15 +701,15 @@ body{
     height: 22px;
     font-size: 21px;
     text-decoration: none;
-  }
-  
-  .form_group{
+    }
+    
+    .form_group{
     position: relative;
     width: 375px;
     height: 633px;
-  }
-  
-  #form_head{
+    }
+    
+    #form_head{
     position: relative;
     margin-top: 0px;
     margin-left: 126px;
@@ -809,4 +809,4 @@ body{
     color: #FFFFFF;
     opacity: 1;
   }
-  }
+}
