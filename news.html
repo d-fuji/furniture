@@ -7,50 +7,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <title>事前課題1_News</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    
+
   </head>
   <body>
+    <!-- header -->
     <header class="header">
-      <div id="logo">HTML CSS</div>
-      <nav id="nav">
-        <div id="about"><a href="./index.html">About</a></div>
-        <div id="news"><a href="./news.html">News</a></div>
-        <div id="qa"><a href="./q_and_a.html">Q&A</a></div>
-      </nav>
+      <p>HTML CSS</p>
+      <ul>
+        <li id="list_1"><a href="./index.html">About</a></li>
+        <li id="list_2"><a href="./news.html">News</a></li>
+        <li id="list_3"><a href="./q_and_a.html">Q&A</a></li>
+      </ul>
     </header>
 
-    <div class="img_7_space">
-     <img src="./img/AdobeStock_img7.png">
-      <div><h1>NEWS</h1></div>
-      <div><h2>NEWS</h2></div>
-    </div>
+    <!--newsでかい写真ゾーン-->
+    <section class="img_7_space">
+      <h1>NEWS</h1>
+      <picture>
+        <source 
+           media="(max-width: 479px)"
+           srcset="./img/AdobeStock_7_s.png" id="img_7_s">
+        <img src="./img/AdobeStock_img7.png" id="img_7">
+      </picture>
+    </section>
 
-    <div id="news_head">最新情報</div>
-    <div id="img_4_space">
-      <img src="./img/AdobeStock_img4.png">
-    </div>
-    <div id="img_5_space">
-      <img src="./img/AdobeStock_img5.png">
-    </div>
-    <div id="img_6_space">
-      <img src="./img/AdobeStock_img6.png">
-    </div>
+    <!--最新情報ゾーン-->
+    <section class="news">
+      <h1 class="news_top">最新情報</h1>
+      <div class="img_wrapper">
+        <img src="./img/AdobeStock_img4.png" id="img_4"> 
+        <div class="img_4_cover"><p>あ</p></div>
+        <!--<img src="./img/AdobeStock_img5.png" id="img_5">
+        <div id="img_5_cover"></div>
+        <img src="./img/AdobeStock_img6.png" id="img_6"> 
+        <div id="img_6_cover"></div>-->  
+      </div>
+    </section>
 
+    <!--footer終了-->
     <footer class="footer">
-      <div id="logo">
-        HTML CSS
-      </div>
-      <div id="about">
-        <a href="./index.html">About</a>
-      </div>
-      <div id="news">
-        <a href="./news.html">News</a>
-      </div>
-      <div id="qa">
-        <a href="./q_and_a.html">Q&A</a>
-      </div>
-      <div id="copy_right">
-        @HTMLCSS.code
-      </div>
+      <p id="logo">HTML CSS</p>
+      <ul>
+        <li id="list_1"><a href="./index.html">About</a></li>
+        <li id="list_2"><a href="./news.html">News</a></li>
+        <li id="list_3"><a href="./q_and_a.html">Q&A</a></li>
+      </ul>
+      <p id="end">@HTMLCSS.code</p>
     </footer>
+    <script src="./js/news.js"></script>
   </body>
 </html>

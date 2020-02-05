@@ -1,219 +1,291 @@
 body{
-  top: 0px;
-  left: 0px;
+  position: absolute;
   width: 1280px;
   height: 1661px;
-  background: #FCFCFC 0% 0% no-repeat padding-box;
-  opacity: 1;
+  margin: 0px;
+  font-family: Noto Sans;
 }
 
-.header #logo{
+.header{
+  position: relative;
+  width: 1280px;
+  height: 60px; 
+}
+
+.header p{
+  position: absolute;
   margin-top: 15px;
   margin-left: 88px;
   width: 62px;
-  height: 35px;
-  text-align: center;
-  font: SemiBold 16px/16px Gill Sans;
-  letter-spacing: 0;
+  height: 35px;  
+  font-size: 16px;
   color: #918F89;
-  opacity: 1;
-  float: left;
+  text-align: center;
 }
 
-.header #nav{
-  margin-top: 25px;
-  margin-right: 90px;
-  width: 335px;
+.header ul{
+  position: absolute;
+  width: 336px;
   height: 35px;
-  opacity: 1;
-  float: right;
-  }
-
-.header #about{
-  margin-top: 10px;
-  width: 43px;
-  height: 22px;
-  float: left;
-  text-align: left;
-  font: ExtraLight 16px/22px Noto Sans;
-  letter-spacing: 0;
-  color: #272727;
-  opacity: 0.5;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 25px 89px 0px 855px;
+  justify-content: space-between;
+  font-size: 16px;
 }
 
-.header #news{
-  margin-left: 107px;
-  width: 38px;
-  height: 22px;
-  float: left;
-  text-align: left;
-  font: ExtraLight 16px/22px Noto Sans;
-  letter-spacing: 0;
-  color: #272727;
-  opacity: 1;
+.header ul li a{
+  text-decoration: none;
 }
 
-.header #qa{
-  margin-left: 114px;
-  width: 33px;
-  height: 22px;
-  float: left;
-  text-align: left;
-  font: ExtraLight 16px/22px Noto Sans;
-  letter-spacing: 0;
-  color: #272727;
-  opacity: 0.5;
+.header ul #list_3{
+  padding-top: 3px;
+  border-bottom: 3px solid black;
 }
 
+/* でかい写真ゾーン */
 .img_8_space{
   position: relative;
   width: 1280px;
   height: 415px;
-  margin-top: 10px;
-  float: left;
 }
 
-.img_8_space img{
+.img_8_space h1{
   position: absolute;
-  width: 100%;
-  float: left;
-}
-
-.img_8_space div{
-  position: absolute;
-  margin-top: 179px;
-  margin-left: 228px;
-  width: 80px;
+  top: 187px;
+  left: 240px;
+  width: 96px;
   height: 29px;
-}
-
-.img_8_space div h1{
   text-align: left;
   font-size: 30px;
   letter-spacing: 3px;
   color: #FFFFFF;
   opacity: 1;
+  margin: 0px;
+}
+/* でかい写真ゾーン */
+
+/* よくある質問 */
+.qa{
+  position: relative;
+  width: 375px;
+  height: 902px;
+  margin: 0px;
 }
 
-.img_8_space div h2{
-  margin-bottom: : 8px;
-  margin-left: 12px;
-  text-align: left;
-  font-size: 30px;
-  letter-spacing: 3px;
-  color: #FFFFFF;
-  opacity: 0.1;
-}
-
-#qa_head{
-  margin-top: 93px;
+.qa h1{
+  position: absolute;
+  width: 137px;
+  height: 30px;
+  margin-top: 92px;
   margin-left: 570.5px;
-  width: 139px;
-  height: 19px;
-  text-align: left;
   font-size: 21px;
-  letter-spacing: 2.1px;
-  color: #3B3B3B;
-  opacity: 1;
-  float: left;
 }
 
-
-.q_and_a_content{
+.qa ol{
   position: absolute;
-  margin-top: 667px;
-  margin-left: 403px;
-  width: 474px;
-  height: 587px;
-  float: left;
-}
-
-.q_and_a_content div{
   width: 267px;
-  height: 19px;
-  text-align: left;
-  font-size: 16px;
-  letter-spacing: 1.6px;
-  color: #3B3B3B;
-  opacity: 1;
-  margin-bottom: 100px;
+  height: 587px;
+  margin-top: 192px;
+  margin-left: 403px;
+  list-style: none;
+  ;
 }
 
-.footer{
+.qa h2{
+  margin: 0;
+  font-size: 16px;
+}
+
+.qa .list_article{
+  font-size: 10px;
+  visibility: hidden;
+}
+
+/* フォントおーさむ */
+
+.q_and_a_content li{
+  position: relative;
+  height: 119px;
+}
+
+.fa-angle-down{
   position: absolute;
+  margin-left: 454px;
+}
+
+/* footer終了 */
+.footer{
+  position: relative;
   width: 1280px;
   height: 284px;
-  margin-top: 1340px;
   background-color: #918F89;
 }
 
-.footer #logo{
-  position: relative;
+.footer p{
+  position: absolute;
   margin-top: 116px;
   margin-left: 227px;
   width: 77px;
   height: 48px;
-  text-align: center;
+  float: left;
+  color: #FFFFFF;
   font-size: 22px;
-  letter-spacing: 0;
-  color: #FFFFFF;
-  opacity: 1;
-  float: left;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.footer #about{
-  position: relative;
+.footer ul{
+  position: absolute;
+  width: 335px;
+  height: 24px;
   margin-top: 136px;
-  margin-left: 422px;
-  width: 48px;
-  height: 24px;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  text-align: left;
-  font-size: 18px;
-  letter-spacing: 0;
-  color: #FFFFFF;
-  opacity: 1;
-  float: left;
+  margin-left: 726px;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
 }
 
-.footer #news{
-  position: relative;
-  margin-top: 133px;
-  margin-left: 102px;
-  width: 43px;
-  height: 24px;
-  text-align: left;
-  font-size: 18px;
-  letter-spacing: 0;
-  color: #FFFFFF;
-  opacity: 1;
-  float: left;
+.footer ul li a{
+  text-decoration: none;
 }
 
-.footer #qa{
-  position: relative;
-  margin-top: 133px;
-  margin-left: 103px;
-  width: 37px;
-  height: 24px;
-  text-align: left;
-  font-size:18px;
-  letter-spacing: 0;
-  color: #FFFFFF;
-  opacity: 1;
-  float: left;
-}
-
-.footer #copy_right{
+#end{
   position: absolute;
   margin-top: 235px;
   margin-left: 599px;
   width: 82px;
   height: 9px;
-  text-align: center;
+  float: left;
   font-size: 10px;
-  letter-spacing: 0.4px;
+  font-weight: 400;
+  font-style: normal;
   color: #FFFFFF;
-  opacity: 1;
-  float: left;s
+
 }
+
+
+/* スマホ用 */
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  body{
+    position: absolute;
+    width: 375px;
+    height: 1360px;
+    margin: 0px;
+  }
+  
+  /* header終了 */
+  .header{
+    width: 375px;
+    height: 55px;
+    margin: 0px;
+    background-color: #918F89;
+  }
+  
+  .header p{
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 154px;
+    width: 68px;
+    height: 40px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+  
+  .header ul{
+    display: none;
+  }
+
+  /* でかい画像ゾーン */
+  .img_8_space{
+    position: relative;
+    max-width: 375px;
+    width: 375px;
+    height: 399px;
+  }
+
+  .img_8_space h1{
+    position: absolute;
+    top: 56px;
+    left: 145px;
+    width: 80px;
+    height: 29px;
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0px;
+  }
+
+
+
+  .img_8{
+    width: 100%;
+    height: auto;
+  }
+  /* でかい画像ゾーン */
+  .qa{
+    position: relative;
+    width: 375px;
+    height: 630px;
+    margin: 0px;
+  }
+  
+  .qa h1{
+    position: absolute;
+    margin-left: 118px;
+    margin-top: 70px;
+  }
+  
+  .qa ol{
+    width: 267px;
+    position: absolute;
+    margin-top: 149px;
+    margin-left: 56px;
+    list-style: none;
+    padding: 0px;
+    line-height: 30px;
+  }
+
+
+  .footer{
+    position: relative;
+    width: 375px;
+    height: 276px;
+    background-color: #918F89;
+
+  }
+  
+  .footer p{
+    position: absolute;
+    margin-top: 86px;
+    margin-left: 153.5px;
+    width: 68px;
+    height: 40px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+
+  }
+
+  .footer ul{
+    display: none;
+  }
+  
+  #end{
+    position: relative;
+    margin-top: 189px;
+    margin-left: 146px;
+    width: 82px;
+    height: 9px;
+    text-align: center;
+    font: Light 10px/16px Gill Sans;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+} 

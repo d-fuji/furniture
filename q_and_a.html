@@ -7,48 +7,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <title>事前課題1_Q&A</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+
   </head>
   <body>
+    <!-- header -->
     <header class="header">
-      <div id="logo">HTML CSS</div>
-      <nav id="nav">
-        <div id="about"><a href="./index.html">About</a></div>
-        <div id="news"><a href="./news.html">News</a></div>
-        <div id="qa"><a href="./q_and_a.html">Q&A</a></div>
-      </nav>
+      <p>HTML CSS</p>
+      <ul>
+        <li id="list_1"><a href="./index.html">About</a></li>
+        <li id="list_2"><a href="./news.html">News</a></li>
+        <li id="list_3"><a href="./q_and_a.html">Q&A</a></li>
+      </ul>
     </header>
 
-    <div class="img_8_space">
-     <img src="./img/AdobeStock_img8.png">
-      <div><h1>Q&A</h1></div>
-      <div><h2>Q&A</h2></div>
-    </div>
+    <!--qaでかい画像終了-->
+    <section class="img_8_space">
+      <h1>Q&A</h1>
+      <picture>
+        <source 
+           media="(max-width: 479px)"
+           srcset="./img/AdobeStock_8_s.png" id="img_8_s">
+        <img src="./img/AdobeStock_img8.png" id="img_8">
+      </picture>
+    </section>
 
-    <div id="qa_head">よくある質問</div>
-    <div class="q_and_a_content">
-      <div>家具の取り置きは可能でしょうか</div>
-      <div>家具の取り置きは可能でしょうか</div>
-      <div>家具の取り置きは可能でしょうか</div>
-      <div>家具の取り置きは可能でしょうか</div>
-      <div>家具の取り置きは可能でしょうか</div>
-    </div>
+    <!--質問コーナ終了ー-->
+    <section class="qa">
+      <h1 id="qa_head">よくある質問</h1>
+      <ol class="q_and_a_content">
+        <i class="fas fa-angle-down" onclick="openHideArticle(0)"></i>
+        <li class="list_title">
+          <h2>家具の取り置きは可能でしょうか</h2>
+          <p class="list_article">可能です。<br>
+            取り置き期間は3週間です。
+          </p>
+        </li>
+        <i class="fas fa-angle-down" onclick="openHideArticle(1)"></i>
+        <li class="list_title">
+          <h2>家具の取り置きは可能でしょうか</h2>
+          <p class="list_article">可能です。<br>
+            取り置き期間は3週間です。
+          </p>
+        </li>
+        <i class="fas fa-angle-down" onclick="openHideArticle(2)"></i>
+        <li class="list_title">
+          <h2>家具の取り置きは可能でしょうか</h2>
+          <p class="list_article">可能です。<br>
+            取り置き期間は3週間です。
+          </p>
+        </li>
+        <i class="fas fa-angle-down" onclick="openHideArticle(3)"></i>
+        <li class="list_title">
+          <h2>家具の取り置きは可能でしょうか</h2>
+          <p class="list_article">可能です。<br>
+            取り置き期間は3週間です。
+          </p>
+        </li>
+        <i class="fas fa-angle-down" onclick="openHideArticle(4)"></i>
+        <li class="list_title">
+          <h2>家具の取り置きは可能でしょうか</h2>
+          <p class="list_article">可能です。<br>
+            取り置き期間は3週間です。
+          </p>
+        </li>
+      </ol>
+    </section class="qa">
 
+    <!--footer-->
     <footer class="footer">
-      <div id="logo">
-        HTML CSS
-      </div>
-      <div id="about">
-        <a href="./index.html">About</a>
-      </div>
-      <div id="news">
-        <a href="./news.html">News</a>
-      </div>
-      <div id="qa">
-        <a href="./q_and_a.html">Q&A</a>
-      </div>
-      <div id="copy_right">
-        @HTMLCSS.code
-      </div>
+      <p>HTML CSS</p>
+      <ul>
+        <li id="list_1"><a href="./index.html">About</a></li>
+        <li id="list_2"><a href="./news.html">News</a></li>
+        <li id="list_3"><a href="./q_and_a.html">Q&A</a></li>
+      </ul>
+      <p id="end">@HTMLCSS.code</p>
     </footer>
+    <script src="./js/q_and_a.js"></script>
   </body>
 </html>
