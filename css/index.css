@@ -178,6 +178,10 @@ body{
   margin: 0px;
 }
 
+.proposal p .change_line{
+  display: none;
+}
+
 #img_2{
   position: absolute;
   margin-top: 142px;
@@ -197,19 +201,6 @@ body{
   margin-top: 412px;
   margin-left: 702px;
   float: left;
-  line-height: 35px;
-}
-
-#img_2_content_s{
-  display: none;
-  position: absolute;
-  margin-top: 131px;
-  margin-left: 9px;
-  text-align: center;
-  font-size: 14px;
-  letter-spacing: 0.42px;
-  width: 358px;
-  height: 224px;
   line-height: 35px;
 }
 
@@ -556,12 +547,20 @@ body{
  
   }
 
-  #img_2_content{
-    display: none;
-  }
-  
-  #img_2_content_s{
+  .proposal p .change_line{
     display: inline;
+  }
+
+  #img_2_content{
+    position: absolute;
+    margin-top: 131px;
+    margin-left: 9px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    width: 358px;
+    height: 224px;
+    line-height: 35px;
   }
   
   .chair{
