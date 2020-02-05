@@ -593,6 +593,7 @@ body{
     width: 359px;
     height: 290px;
     display: inline-block;
+    font-size: 25px;
   }
   
   .news{
@@ -607,6 +608,7 @@ body{
     margin-left: 149px;
     width: 78px;
     height: 29px;
+    font-size: 25px;
   }
 
   .news div img{
@@ -776,7 +778,7 @@ body{
     width: 82px;
     height: 9px;
     text-align: center;
-    font: Light 10px/16px Gill Sans;
+    font-size: 10px;
     letter-spacing: 0.4px;
     color: #FFFFFF;
     opacity: 1;
