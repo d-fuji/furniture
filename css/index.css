@@ -143,7 +143,7 @@ body{
   height: 741px;
 }
 
-.img_1_space #comment{
+.img_1_space #comment_m{
   position: absolute;
   top: 264px;
   margin: 0px;
@@ -159,15 +159,12 @@ body{
   
 }
 
-.img_1_space #comment_m{
-  position: absolute;
-  top: 148px;
-  margin: 0px;
-  width: 228px;
-  height: 255px;
+.img_1_space h1::before{
+  content: "We propose a life";
+}
+
+.img_1_space h1 span{
   display: none;
-  color: #918F89;
-  font-size: 39px;
 }
 
 
@@ -238,7 +235,7 @@ body{
   height: 748px;
 }
 
-.news h1{
+.news h2{
   position: absolute;
   margin-top: 0px;
   margin-left: 600.5px;
@@ -490,11 +487,22 @@ body{
     height: auto;
   }
 
-  .img_1_space #comment{
-    display: none;
-  }
 
   .img_1_space #comment_m{
+    position: absolute;
+    top: 148px;
+    margin: 0px;
+    width: 228px;
+    height: 255px;
+    font-size: 39px;
+    background-color: rgb(0, 0, 0, 0);
+    padding: 0;
+  }
+  .img_1_space h1::before{
+    content: "";
+  }
+
+  .img_1_space h1 span{
     display: inline;
   }
 
@@ -602,7 +610,7 @@ body{
     height: 1183px;
   }
 
-  .news h1{
+  .news h2{
     position: absolute;
     margin-top: 0px;
     margin-left: 149px;
