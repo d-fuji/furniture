@@ -41,7 +41,7 @@ body{
   text-decoration: none;
 }
 
-.header ul #list_1{
+.header ul #list_about{
   padding-top: 3px;
   border-bottom: 3px solid black;
 }
@@ -61,6 +61,7 @@ body{
   overflow-y: auto; /* メニューが多くなったらスクロールできるように */
   opacity: 0.9;
 }
+
 .hamburger {
   position: absolute;
   right: 0;
@@ -68,14 +69,17 @@ body{
   width: 40px; /* クリックしやすいようにちゃんと幅を指定する */
   height: 40px; /* クリックしやすいようにちゃんと高さを指定する */
 }
+
 .global-nav__list {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
+
 .global-nav__item {
   text-align: center;
 }
+
 .global-nav__item a {
   height: 56px;
   padding-top: 24px;
@@ -84,9 +88,11 @@ body{
   text-decoration: none;
   color: black;
 }
+
 .global-nav__item a:hover {
   background-color: #eee;
 }
+
 .hamburger__line {
   position: absolute;
   left: 11px;
@@ -95,13 +101,13 @@ body{
   background-color: #FFFFFF;
   transition: all .6s;
 }
-.hamburger__line--1 {
+.hamburger__line--top {
   top: 14px;
 }
-.hamburger__line--2 {
+.hamburger__line--middle {
   top: 20px;
 }
-.hamburger__line--3 {
+.hamburger__line--bottom {
   top: 26px;
 }
 
@@ -113,15 +119,15 @@ body{
   opacity: .8;
   visibility: visible;
 }
-.nav-open .hamburger__line--1 {
+.nav-open .hamburger__line--top {
   transform: rotate(45deg);
   top: 20px;
 }
-.nav-open .hamburger__line--2 {
+.nav-open .hamburger__line--middle {
   width: 0;
   left: 50%;
 }
-.nav-open .hamburger__line--3 {
+.nav-open .hamburger__line--bottom {
   transform: rotate(-45deg);
   top: 20px;
 }
@@ -306,12 +312,13 @@ body{
 }
 
 
-.news p{
+.news a{
+  position: absolute;
   margin-top: 50px;
   margin-left: 590px;
 }
 
-.news p a{
+.news a{
   text-decoration: none;
 }
 
@@ -653,7 +660,9 @@ body{
     opacity: 0.6;
   }
   
-  .news p{
+  
+  .news a{
+    position: absolute;
     margin-top: 20px;
     margin-left: 135px;
     width: 105px;
