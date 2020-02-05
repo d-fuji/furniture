@@ -193,6 +193,7 @@ body{
   position: absolute;
   margin-top: 343px;
   margin-left: 702px;
+  font-size: 25px;
   float: left;
 }
 
@@ -201,6 +202,7 @@ body{
   margin-top: 412px;
   margin-left: 702px;
   float: left;
+  font-size: 12px;
   line-height: 35px;
 }
 
@@ -240,6 +242,7 @@ body{
   position: absolute;
   margin-top: 0px;
   margin-left: 600.5px;
+  font-size: 25px;
 }
 
 .news div img{
@@ -307,6 +310,7 @@ body{
   position: absolute;
   margin-top: 50px;
   margin-left: 590px;
+  font-size: 21px;
 }
 
 .news a{
@@ -326,6 +330,7 @@ body{
   margin-left: 574.5px;
   width: 131px;
   height: 29px;
+  font-size: 25px;
 }
 
 #name{
@@ -414,6 +419,7 @@ body{
   display: flex;
   padding: 0px;
   justify-content: space-between;
+  font-size: 18px;
 }
 
 .footer ul li a{
