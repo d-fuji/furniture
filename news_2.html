@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./test.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <p id="header_logo">HTML CSS</p>
+        <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--middle"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+        </div>
+        <nav class="global-nav">
+            <ul id="pc_list">
+                <li id="list_about" class="global-nav__item"><a href="./index.html">About</a></li>
+                <li id="list_news" class="global-nav__item"><a href="./news.html">News</a></li>
+                <li id="list_qa" class="global-nav__item"><a href="./q_and_a.html">Q&A</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="comment_m">NEWS</h1>
+        <picture>
+            <source media="(max-width: 479px)" srcset="./img/AdobeStock_1_s.png" id="img_1_s">
+            <img src="./img/AdobeStock_img1.png" id="img_1">
+        </picture>
+        <section class="news">
+            <h2 class="news_top">最新情報</h2>
+            <div class="container_wrapper">
+                <div class="container">
+                    <img src="./img/AdobeStock_img4.png" alt="">
+                    <span class="text">アームストロングのカウチ入荷</span>
+                </div>
+                <div class="container">
+                    <img src="./img/AdobeStock_img5.png" alt="">
+                    <span class="text">アームストロングのチェア再入荷</span>
+                </div>
+                <div class="container">
+                    <img src="./img/AdobeStock_img6.png" alt="">
+                    <span class="text">アームストロングのテーブル入荷</span>
+                </div>
+            </div>
+            <a href="#">view more</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <p id="logo">HTML CSS</p>
+        <ul>
+            <li id="list_first"><a href="./index.html">About</a></li>
+            <li id="list_second"><a href="./news.html">News</a></li>
+            <li id="list_third"><a href="./q_and_a.html">Q&A</a></li>
+        </ul>
+        <p id="end">@HTMLCSS.code</p>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
