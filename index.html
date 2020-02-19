@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <title>事前課題1_index</title>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,17 +29,13 @@
     </header>
 
     <main class="main">
-        <h1 id="comment_m">
-            <span class="first_line">We</span>
-            <span class="second_line">propose</span>
-            <span class="third_line">a life.</span>
-
-        </h1>
-        <picture>
-            <source media="(max-width: 479px)" srcset="./img/AdobeStock_1_s.png" id="img_1_s">
-            <img src="./img/AdobeStock_img1.png" id="img_1">
-        </picture>
-
+        <div class="main_img">
+            <h1 id="comment_m">
+                <span class="first_line">We</span>
+                <span class="second_line">propose</span>
+                <span class="third_line">a life.</span>
+            </h1>
+        </div>
         <section class="proposal">
             <div class="proposal_container">
                 <h2 id="img_2_top">暮らしを提案する。</h2>
@@ -57,7 +53,12 @@
 
         <section class="chair">
             <h2 id="img_3_content">豊富なスタイル</h2>
-            <img src="./img/AdobeStock_img3.png" id="img_3">
+            <div id="img_3"></div>
+            <div id="select_btn">
+                <p class="hidari_maru">●</p>
+                <p class="center_maru">●</p>
+                <p class="migi_maru">●</p>
+            </div>
         </section>
 
         <section class="news">
@@ -88,11 +89,12 @@
                 <input type="text" id="name" name="name" placeholder="お名前">
                 <input type="text" id="email" name="email" placeholder="メールアドレス">
                 <textarea name="content" id="content" rows="8" cols="80" placeholder="お問い合わせ内容"></textarea>
-                <input type="submit" name="submit" value="送信" id="submit">
+                <input type="submit" name="submit" value="SEND" id="submit">
             </form>
         </section>
 
     </main>
+
 
     <footer class="footer">
         <p id="logo">HTML CSS</p>
@@ -103,10 +105,8 @@
         </ul>
         <p id="end">@HTMLCSS.code</p>
     </footer>
+    <script src="js/headerHamburger.js"></script>
 
-
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/index.js"></script>
 </body>
 
 </html>
