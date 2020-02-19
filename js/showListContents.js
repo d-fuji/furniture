@@ -19,3 +19,8 @@ function openHideArticle(num) {
         counterList[num]++;
     }
 }
+
+const btn = document.getElementsByClassName("fas");
+const rotate = (e) => {
+    e.target.classList.toggle("rotate")
+}
