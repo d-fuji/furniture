@@ -1,0 +1,348 @@
+@media screen and (min-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+body{
+    font-family: Noto Sans;
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        p{
+            width: 62px;
+            height: 35px;  
+            font-size: 16px;
+            padding-left: 7%;
+            color: #918F89;
+        }
+        nav{
+            width: 60%;
+            padding-right: 7%;
+            box-sizing: border-box;
+            div{
+                display: none;
+            }
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                font-size: 16px;
+                padding-left: 30%;
+                margin-bottom: 0;
+                li{
+                    padding-bottom: 30px;
+                    a{
+                        text-decoration: none;
+                        color: #918F89;
+                    }
+                }
+                #list_qa{
+                    border-bottom: 3px solid black;
+                    a{
+                        color: #000000;
+                        
+                    }
+                }
+            }
+        }
+    }
+    main{
+        width: 100%;
+        .main_img{
+            background-image: url("./img/AdobeStock_img8.png");
+            background-size: cover;
+            height: 415px;
+            width: 100%;
+            h1{
+                position: absolute;
+                color: #ffffff;
+                margin-top: 179px;
+                margin-left: 228px;
+                font-size: 30px;
+            }
+        }
+        .qa_container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            h2{
+                font-size: 21px;
+                color: #3B3B3B;
+                font-weight: lighter;
+                margin-top: 69px;
+                margin-bottom: 102px;
+            }
+            ul{
+                list-style: none;
+                padding-left: 0;
+                margin: 0;
+                width: 37%;
+                margin-bottom: 123px;
+                div{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    height: 119px;
+                    i{
+                        color: #00000034;
+                        transition: all　1s;
+                    }
+                    li{
+                        margin-left: 0;
+                        margin-right: auto;
+                        
+                        h3{
+                            margin: 0;
+                            font-size: 16px;
+                            font-weight: lighter;
+                            color: #3B3B3B;
+                        }
+                        p{
+                            visibility: hidden;
+                            font-size: 12px;
+                            font-weight: lighter;
+                            color: #3B3B3B;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-color: #918F89;
+        #logo{
+            position: absolute;
+            color: #FFFFFF;
+            font-style: normal;
+            width: 50px;
+            margin-top: 116px;
+            margin-left: 15%;
+            text-align: center;
+            font-size: 22px;
+        }
+        ul{
+            position: absolute;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            font-size: 18px;
+            margin-top: 130px;
+            margin-left: 55%;
+            padding-left: 0;
+            width: 30%;
+            li{
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        #end{
+            position: absolute;
+            font-size: 10px;
+            font-weight: 400;
+            font-style: normal;
+            color: #FFFFFF;
+            margin-left: 45%;
+            margin-top: 250px;
+        }
+    }
+    .rotate{
+        transform: rotate(180deg);
+        position: absolute;
+    }
+}
+}
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+    body{
+        font-family: Noto Sans;
+        header{
+            float: left;
+            position: relative;
+            width: 100%;
+            height: 55px;
+            background-color: #918F89;
+            z-index: 100;
+            p{
+                width: 15%;
+                height: 30px;
+                padding-top: 3%;
+                margin-left: 42.5%;
+                color: #FFFFFF;
+                text-align: center;
+                margin-top: 0;
+                z-index: 3;
+            }
+            .hamburger {
+                width: 36px; 
+                height: 22px;
+                position: absolute;
+                right: 0;
+                margin-right: 20px;
+                top: 0;
+                z-index: 2;
+                .hamburger__line {
+                    position: absolute;
+                    left: 11px;
+                    width: 36px;
+                    height: 1px;
+                    background-color: #FFFFFF;
+                    transition: all .6s;
+                    }
+                .hamburger__line--top {
+                    top: 14px;
+                }
+                .hamburger__line--middle {
+                    top: 26px;
+                    
+                }
+                .hamburger__line--bottom {
+                    top: 38px;
+                }
+                
+            }
+            .global-nav{
+                position: absolute;
+                left: 0;
+                top: -244px; 
+                width: 100%;
+                height: 244px;
+                background-color: #918F89;
+                transition: all 0.6s;
+                overflow-y: auto;
+                opacity: 0.8;
+                z-index: 1;
+                #pc_list {
+                    width: 100%;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    .global-nav__item {
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column-reverse;
+                        a {
+                            padding-top: 25px;
+                            height: 56px;
+                            display: block;
+                            border-bottom: 1px solid #eee;
+                            text-decoration: none;
+                            color: #FFFFFF;;
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            width: 100%;
+            .main_img{
+                background-image: url("./img/AdobeStock_8_s.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                text-align: center;
+                width: 100%;
+                height: 454px;
+                h1{
+                    position: absolute;
+                    top: 131px;
+                    margin-left: 41%;
+                    font-size: 30px;
+                    color: #FFFFFF;
+                    font-weight: lighter;
+                }
+            }
+            .qa_container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            h2{
+                font-size: 21px;
+                color: #3B3B3B;
+                font-weight: lighter;
+                margin-top: 72px;
+                margin-bottom: 50px;
+            }
+            ul{
+                list-style: none;
+                padding-left: 0;
+                margin: 0;
+                width: 70%;
+                div{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    i{
+                        color: #00000034;
+                        transition: all　1s;
+                    }
+                    li{
+                        margin-left: 0;
+                        margin-right: auto;
+                        height: 107px;
+                        h3{
+                            margin: 0;
+                            font-size: 13px;
+                        }
+                        p{
+                            visibility: hidden;
+                        }
+                    }
+                }
+            }
+        }
+        }
+        footer{
+            
+            width: 100%;
+            margin-top: 150px;
+            height: 276px;
+            background-color: #918F89;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            #logo{
+                margin-left: 42.5%;
+                width: 68px;
+                height: 40px;
+                font-size: 16px;
+                color: #FFFFFF;
+                text-align: center;
+            }
+            ul{
+                display: none;
+            }
+            #end{
+                margin-left: 41%;
+                width: 82px;
+                height: 9px;
+                font-size: 10px;
+                letter-spacing: 0.4px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .nav-open .hamburger__line--top {
+        transform: rotate(405deg);
+        margin-top: 12px;
+    }
+    .nav-open .hamburger__line--middle {
+        width: 0px;
+        margin-left: 20%;
+        opacity: 0;
+    }
+    .nav-open .hamburger__line--bottom {
+        transform: rotate(-405deg);
+        margin-top: -12px;
+    }
+    .nav-open .global-nav {
+        top:0;
+        margin-top: 54px; //headerのheightと対応させる
+    }
+    .rotate{
+        transform: rotate(180deg);
+        position: absolute;
+    }
+}
