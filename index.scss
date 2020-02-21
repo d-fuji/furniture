@@ -2,6 +2,10 @@
 body{
     font-family: Noto Sans;
     header{
+        height: 60px;
+        padding-left: 7%;
+        padding-right: 7%;
+        box-sizing: border-box;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -10,12 +14,11 @@ body{
             width: 62px;
             height: 35px;  
             font-size: 16px;
-            padding-left: 7%;
+            // padding-left: 7%;
             color: #918F89;
         }
         nav{
             width: 60%;
-            padding-right: 7%;
             box-sizing: border-box;
             div{
                 display: none;
@@ -26,9 +29,10 @@ body{
                 justify-content: space-between;
                 font-size: 16px;
                 padding-left: 30%;
+                margin-top: 26px;//
                 margin-bottom: 0;
                 li{
-                    padding-bottom: 30px;
+                    padding-bottom: 13px;
                     a{
                         text-decoration: none;
                         color: #918F89;
@@ -62,7 +66,7 @@ body{
                 padding-bottom: 23px;
                 display: block;
                 background-color: #FFFFFF;
-                color: #000000;
+                color: #918F89;
                 font-size: 60px;
                 opacity: 0.6;
             }
@@ -84,15 +88,16 @@ body{
             justify-content: space-between;
             margin-top: 6%;
             margin-bottom: 6%;
+            padding-left: 6%;
+            padding-right: 6%;
+            box-sizing: border-box;
             .proposal_container{
                 width: 40%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding-right: 6%;
                 h2{
-                    
                     font-size: 25px;
                 }
                 p{
@@ -101,7 +106,6 @@ body{
                 }
             }
             img{
-                padding: 6%;
                 width: 42.5%;
             }       
         }
@@ -113,17 +117,13 @@ body{
             align-items: center;
             padding-bottom: 15%;
             h2{
-                
-                
                 font-size: 25px;
                 letter-spacing: 2.5px;
                 color: #3B3B3B;
+                margin-bottom: 50px;
             }
             #img_3{
                 background-image: url("./img/AdobeStock_img3.png");
-                top: 0;
-                margin-top: 75px;
-                
                 width: 964px;
                 height: 503px;
             }
@@ -132,7 +132,9 @@ body{
                 padding: 0;
                 display: flex;
                 flex-direction: row;
+                font-size: 6px;
                 .hidari_maru{
+                    
                     color: #707070;
                     opacity: 0.2;
                 }
@@ -163,10 +165,14 @@ body{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                padding-left: 5%;
+                padding-right: 5%;
+                box-sizing: border-box;
+                margin-bottom: 39px;
                 .container{
                     position: relative;
                     text-align: center;
-                    margin: 0 5%;
+                    
                     .text{
                         position: absolute;
                         left: 50%;
@@ -202,7 +208,7 @@ body{
                 }
             }
             a{
-                margin-top: 5%;
+                
                 text-decoration: none;
                 color: #000000;
                 font-size: 21px;
@@ -258,30 +264,35 @@ body{
         }
     }
     footer{
+        display: flex;
         width: 100%;
         height: 300px;
-        position: relative;
         background-color: #918F89;
+        padding-left: 18%;
+        padding-right: 17%;
+        box-sizing: border-box;
+        text-align: center;
         #logo{
-            position: absolute;
             color: #FFFFFF;
             font-style: normal;
             width: 50px;
-            margin-top: 116px;
-            margin-left: 15%;
-            text-align: center;
+            height: 10%;
             font-size: 22px;
+            flex-grow: 1;
+            order: 1;
+            margin-top: 116px;
         }
         ul{
-            position: absolute;
             list-style: none;
             display: flex;
             justify-content: space-between;
             font-size: 18px;
-            margin-top: 130px;
-            margin-left: 55%;
-            padding-left: 0;
             width: 30%;
+            height: 10%;
+            padding: 0;
+            order: 3;
+            flex-grow: 2;
+            margin-top: 133px;
             li{
                 a{
                     text-decoration: none;
@@ -290,13 +301,14 @@ body{
             }
         }
         #end{
-            position: absolute;
+            order: 2;
+            flex-grow: 10;
             font-size: 10px;
-            font-weight: 400;
             font-style: normal;
-            color: #FFFFFF;
-            margin-left: 45%;
-            margin-top: 250px;
+            color: #FFFFFF; 
+            margin-top: auto;    
+            margin-bottom: 35px;
+            padding-left: 25%;
         }
     }
 }
@@ -461,7 +473,7 @@ body{
                     margin-top: 75px;
                     margin-left: 8px;
                     margin-right: 8px;
-                    width: 359px;
+                    width: 100%;
                     box-sizing: border-box;
                 }
                 img{
@@ -551,7 +563,9 @@ body{
                     display: flex;
                     flex-direction: column;
                     justify-content: space-around;
+                    align-items: center;
                     input{
+                        width: 100%;
                         background: #FFFFFF 0% 0% no-repeat padding-box;
                         border: 0.5px solid #707070;
                         border-radius: 11px;
@@ -561,20 +575,21 @@ body{
                         margin-bottom: 8%;
                     }
                     textarea{
+                        width: 100%;
                         background: #FFFFFF 0% 0% no-repeat padding-box;
                         border: 0.5px solid #707070;
                         border-radius: 11px;
                         opacity: 0.6;
                         text-align: left;
                         font-size: 14px;
-                        padding: 2%;
                         letter-spacing: 0.6px;
                         color: #3B3B3B;
                         margin-bottom: 8%;
                     }
                     #submit{
                         width: 55%;
-                        margin-left: 22.5%;
+
+                        // margin-left: 22.5%;
                         height: 50px;
                         font-size: 14px;
                         color: #000000;
