@@ -166,6 +166,8 @@
     height: 503px;
   }
   body main .chair #select_btn {
+    list-style: none;
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -582,7 +584,9 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  body main .chair div {
+  body main .chair #select_btn {
+    list-style: none;
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -591,15 +595,15 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  body main .chair div .hidari_maru {
+  body main .chair #select_btn .hidari_maru {
     color: #707070;
     opacity: 0.2;
   }
-  body main .chair div .center_maru {
+  body main .chair #select_btn .center_maru {
     color: #707070;
     opacity: 0.8;
   }
-  body main .chair div .migi_maru {
+  body main .chair #select_btn .migi_maru {
     color: #707070;
     opacity: 0.2;
   }
