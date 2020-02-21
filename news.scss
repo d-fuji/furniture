@@ -46,20 +46,18 @@ body{
     }
     main{
         width: 100%;
-        .main_img{
+        h1{
             background-image: url("./img/AdobeStock_img7.png");
             background-size: cover;
             background-repeat: no-repeat;
             height: 415px;
+            padding-top: 179px;
+            padding-left: 228px;
+            box-sizing: border-box;
+            margin: 0;
             width: 100%;
-            h1{
-                position: absolute;
-                color: #918F89;
-                margin-top: 179px;
-                margin-left: 228px;
-                font-weight: lighter;
-                font-size: 30px;
-            }
+            color: #918F89;
+            font-weight: lighter;
         }
         .news{
             margin-top: 86px;
@@ -249,22 +247,20 @@ body{
         main{
             z-index: -1;
             width: 100%;
-            .main_img{
+            h1{
+                margin: 0;
                 background-image: url("./img/AdobeStock_7_s.png");
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
                 width: 100%;
                 height: 454px;
-                h1{
-                    font-weight: lighter;
-                    position: absolute;
-                    top: 0;
-                    font-size: 30px;
-                    margin-top: 135px;
-                    margin-left: 39%;
-                    color: #918F89;
-                }
+                font-weight: lighter;
+                font-size: 30px;
+                padding-top: 135px;
+                padding-left: 39%;
+                box-sizing: border-box;
+                color: #918F89;
             }
             .news{   
                 width: 100%;
