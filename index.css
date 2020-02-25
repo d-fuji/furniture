@@ -68,8 +68,7 @@
     height: 721px;
     width: 100%;
     margin: 0;
-    padding-top: 264px;
-    padding-bottom: 341px;
+    padding: 264px 0 341px 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: -webkit-box;
@@ -81,8 +80,7 @@
             flex-direction: row;
   }
   body main h1 span {
-    padding-top: 31px;
-    padding-bottom: 23px;
+    padding: 31px 0 23px 0;
     display: block;
     background-color: #FFFFFF;
     color: #918F89;
@@ -96,8 +94,7 @@
     padding-left: 20px;
   }
   body main h1 .third_line {
-    padding-left: 20px;
-    padding-right: 60px;
+    padding: 31px 60px 23px 20px;
   }
   body main .proposal {
     width: 100%;
@@ -143,7 +140,6 @@
     width: 42.5%;
   }
   body main .chair {
-    height: 100%;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -208,8 +204,7 @@
     padding-bottom: 15%;
   }
   body main .news h2 {
-    margin-top: 0;
-    margin-bottom: 5%;
+    margin: 0 0 5% 0;
     font-size: 25px;
   }
   body main .news .container_wrapper {
@@ -404,10 +399,9 @@
     width: 15%;
     height: 30px;
     padding-top: 3%;
-    margin-left: 42.5%;
+    margin: 0 0 0 42.5%;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 0;
     z-index: 3;
   }
   body header .hamburger {
@@ -502,9 +496,7 @@
     color: #918F89;
     background-color: #FFFFFF;
     margin-top: 12px;
-    padding-top: 19px;
-    padding-bottom: 19px;
-    padding-left: 54px;
+    padding: 19px 0 19px 54px;
   }
   body main h1 .first_line {
     width: 82px;
@@ -521,14 +513,13 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin: 6% 0 6% 0;
   }
   body main .proposal .proposal_container {
     width: 80%;
@@ -622,8 +613,7 @@
     padding-bottom: 15%;
   }
   body main .news h2 {
-    margin-top: 0;
-    margin-bottom: 5%;
+    margin-top: 0 0 5% 0;
     font-size: 25px;
   }
   body main .news .container_wrapper {

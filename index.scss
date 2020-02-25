@@ -56,14 +56,12 @@ body{
             height: 721px;
             width: 100%;
             margin: 0;
-            padding-top: 264px;
-            padding-bottom: 341px;
+            padding: 264px 0 341px 0;
             box-sizing: border-box;
             display: flex;
             flex-direction: row;
             span{
-                padding-top: 31px;
-                padding-bottom: 23px;
+                padding: 31px 0 23px 0;
                 display: block;
                 background-color: #FFFFFF;
                 color: #918F89;
@@ -77,8 +75,7 @@ body{
                 padding-left: 20px;
             }
             .third_line{
-                padding-left: 20px;
-                padding-right: 60px;
+                padding: 31px 60px 23px 20px;
             }
         }
         .proposal{ 
@@ -108,7 +105,6 @@ body{
             }       
         }
         .chair{
-            height: 100%;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -132,8 +128,7 @@ body{
                 display: flex;
                 flex-direction: row;
                 font-size: 6px;
-                .hidari_maru{
-                    
+                .hidari_maru{ 
                     color: #707070;
                     opacity: 0.2;
                 }
@@ -147,16 +142,14 @@ body{
                 }
             }
         }
-        .news{   
-            
+        .news{
             width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             padding-bottom: 15%;
             h2{
-                margin-top: 0;
-                margin-bottom: 5%;
+                margin: 0 0 5% 0;
                 font-size: 25px;
             }
             .container_wrapper{
@@ -170,7 +163,6 @@ body{
                 .container{
                     position: relative;
                     text-align: center;
-                    
                     .text{
                         position: absolute;
                         left: 50%;
@@ -313,14 +305,13 @@ body{
                 width: 15%;
                 height: 30px;
                 padding-top: 3%;
-                margin-left: 42.5%;
+                margin: 0 0 0 42.5%;
                 color: #FFFFFF;
                 text-align: center;
-                margin-top: 0;
                 z-index: 3;
             }
             .hamburger {
-                width: 36px; 
+                width: 36px;
                 height: 22px;
                 position: absolute;
                 right: 0;
@@ -392,7 +383,6 @@ body{
                 flex-direction: column;
                 font-size: 39px;
                 margin: 0;
-                
                 padding-top: 136px;
                 box-sizing: border-box;
                 span{
@@ -400,9 +390,7 @@ body{
                     color: #918F89;
                     background-color: #FFFFFF;
                     margin-top: 12px;
-                    padding-top: 19px;
-                    padding-bottom: 19px;
-                    padding-left: 54px;
+                    padding: 19px 0 19px 54px;
                 }
                 .first_line{
                     width: 82px;
@@ -417,10 +405,9 @@ body{
             .proposal{ 
                 width: 100%;
                 display: flex;
-                flex-direction: column-reverse;
+                flex-direction: column;
                 justify-content: space-between;
-                margin-top: 6%;
-                margin-bottom: 6%;
+                margin: 6% 0 6% 0;
                 .proposal_container{
                     width: 80%;
                     display: flex;
@@ -485,8 +472,7 @@ body{
                 align-items: center;
                 padding-bottom: 15%;
                 h2{
-                    margin-top: 0;
-                    margin-bottom: 5%;
+                    margin-top: 0 0 5% 0;
                     font-size: 25px;
                 }
                 .container_wrapper{
@@ -577,7 +563,6 @@ body{
             }
         }
         footer{
-            
             width: 100%;
             margin-top: 150px;
             height: 276px;
