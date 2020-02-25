@@ -6,7 +6,7 @@
   }
   body header {
     height: 60px;
-    padding-left: 0 7% 0 7%;
+    padding: 0 7% 0 7%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 100%;
