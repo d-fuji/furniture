@@ -3,8 +3,7 @@ body{
     font-family: Noto Sans;
     header{
         height: 60px;
-        padding-left: 7%;
-        padding-right: 7%;
+        padding-left: 0 7% 0 7%;
         box-sizing: border-box;
         width: 100%;
         display: flex;
@@ -14,7 +13,6 @@ body{
             width: 62px;
             height: 35px;  
             font-size: 16px;
-            // padding-left: 7%;
             color: #918F89;
         }
         nav{
@@ -29,8 +27,7 @@ body{
                 justify-content: space-between;
                 font-size: 16px;
                 padding-left: 30%;
-                margin-top: 26px;//
-                margin-bottom: 0;
+                margin: 26px 0 0 0;
                 li{
                     padding-bottom: 13px;
                     a{
