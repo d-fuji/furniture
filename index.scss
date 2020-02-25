@@ -126,11 +126,6 @@ body{
                 background-repeat: no-repeat;
                 background-position: bottom;
             }
-            #img_3{
-                background-image: url("./img/AdobeStock_img3.png");
-                width: 964px;
-                height: 503px;
-            }
             #select_btn{
                 list-style: none;
                 padding: 0;
@@ -276,7 +271,6 @@ body{
             color: #FFFFFF;
             font-style: normal;
             width: 50px;
-            height: 10%;
             font-size: 22px;
             order: 1;
             margin: 0;
@@ -287,7 +281,6 @@ body{
             justify-content: space-between;
             font-size: 18px;
             width: 30%;
-            height: 10%;
             padding: 0;
             order: 3;
             li{
@@ -388,7 +381,6 @@ body{
         }
         main{
             width: 100%;
-            position: relative;
             h1{
                 background-image: url("./img/AdobeStock_1_s.png");
                 background-repeat: no-repeat;
@@ -457,26 +449,15 @@ body{
                 padding-bottom: 15%;
                 h2{
                     font-size: 25px;
+                    text-align: center;
+                    width: 100%;
+                    height: 356px;
                     letter-spacing: 2.5px;
                     color: #3B3B3B;
-                }
-                #img_3{
-                    content: "";
+                    margin-bottom: 50px;
                     background-image: url("./img/AdobeStock_3_s.png");
-                    background-size: cover;
-                    height: 290px;
-                    margin-top: 75px;
-                    margin-left: 8px;
-                    margin-right: 8px;
-                    width: 100%;
-                    box-sizing: border-box;
-                }
-                img{
-                    margin-top: 75px;
-                    padding-left: 8px;
-                    padding-right: 8px;
-                    width: 100%;
-                    box-sizing: border-box;
+                    background-repeat: no-repeat;
+                    background-position: bottom;
                 }
                 #select_btn{
                     list-style: none;
