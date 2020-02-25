@@ -2,6 +2,9 @@
 body{
     font-family: Noto Sans;
     header{
+        height: 60px;
+        padding: 0 7% 0 7%;
+        box-sizing: border-box;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -10,12 +13,10 @@ body{
             width: 62px;
             height: 35px;  
             font-size: 16px;
-            padding-left: 7%;
             color: #918F89;
         }
         nav{
             width: 60%;
-            padding-right: 7%;
             box-sizing: border-box;
             div{
                 display: none;
@@ -26,9 +27,9 @@ body{
                 justify-content: space-between;
                 font-size: 16px;
                 padding-left: 30%;
-                margin-bottom: 0;
+                margin: 26px 0 0 0;
                 li{
-                    padding-bottom: 30px;
+                    padding-bottom: 13px;
                     a{
                         text-decoration: none;
                         color: #918F89;
@@ -52,8 +53,7 @@ body{
             background-size: cover;
             height: 415px;
             width: 100%;
-            padding-left: 228px;
-            padding-top: 179px;
+            padding: 179px 0 0 228px;
             box-sizing: border-box;
             color: #FFFFFF;
             font-weight: lighter;
@@ -67,16 +67,14 @@ body{
                 font-size: 21px;
                 color: #3B3B3B;
                 font-weight: lighter;
-                margin-top: 69px;
-                margin-bottom: 102px;
+                margin: 69px 0 102px;
                 
             }
             .q_and_a_content{
                 list-style: none;
                 padding-left: 0;
-                margin: 0;
+                margin: 0 0 123px 0;
                 width: 37%;
-                margin-bottom: 123px;
                 div{
                     display: flex;
                     flex-direction: row-reverse;
@@ -87,8 +85,7 @@ body{
                         transition: all　1s;
                     }
                     .list_title{
-                        margin-left: 0;
-                        margin-right: auto; 
+                        margin: 0 auto 0 0; 
                         display: flex;
                         flex-direction: column;
                         .list_head{
@@ -109,7 +106,7 @@ body{
             }
         }
     }
-    footer{
+    footer{//flexを使って修正位
         width: 100%;
         height: 300px;
         position: relative;
@@ -161,8 +158,6 @@ body{
     body{
         font-family: Noto Sans;
         header{
-            float: left;
-            position: relative;
             width: 100%;
             height: 55px;
             background-color: #918F89;
@@ -171,14 +166,13 @@ body{
                 width: 15%;
                 height: 30px;
                 padding-top: 3%;
-                margin-left: 42.5%;
+                margin: 0 0 0 42.5%;
                 color: #FFFFFF;
                 text-align: center;
-                margin-top: 0;
                 z-index: 3;
             }
             .hamburger {
-                width: 36px; 
+                width: 36px;
                 height: 22px;
                 position: absolute;
                 right: 0;
@@ -262,8 +256,7 @@ body{
                     font-size: 21px;
                     color: #3B3B3B;
                     font-weight: lighter;
-                    margin-top: 72px;
-                    margin-bottom: 50px;
+                    margin: 72px 0 50px 0;
                 }
                 .q_and_a_content{
                     list-style: none;
@@ -279,16 +272,12 @@ body{
                             transition: all　1s;
                         }
                         .list_title{
-                            
                             height: 107px;
                             display: flex;
                             flex-direction: column;
-                            margin-left: 0;
-                            margin-right: auto;
+                            margin: 0 auto 0 0;
                             p{
-                                margin: 0;
-                                margin-left: 0;
-                                margin-right: auto;
+                                margin: 0 auto 0 0;
                                 font-size: 13px;
                             }
                             .list_article{
@@ -301,7 +290,6 @@ body{
             }
         }
         footer{
-            
             width: 100%;
             margin-top: 150px;
             height: 276px;
