@@ -1,26 +1,19 @@
-function openArticle(num) {
-    let listArticle = document.getElementsByClassName("list_article")[num];
-    listArticle.style.visibility = "visible";
-}
+//内容の表示切り替え
+let open = [false, false, false, false, false];
 
-function hideArticle(num) {
+const openHideArticle = (num) => {
     let listArticle = document.getElementsByClassName("list_article")[num];
-    listArticle.style.visibility = "hidden";
-}
-
-let counterList = [1, 1, 1, 1, 1];
-function openHideArticle(num) {
-    let listArticle = document.getElementsByClassName("list_article")[num];
-    if (counterList[num] % 2 === 1) {
-        openArticle(num);
-        counterList[num]++;
-    } else {
-        hideArticle(num)
-        counterList[num]++;
+    if (open[num]) {
+        listArticle.style.visibility = "hidden";
+        open[num] = false
+    }
+    else {
+        listArticle.style.visibility = "visible";
+        open[num] = true
     }
 }
 
-const btn = document.getElementsByClassName("fas");
+//リストの横のイラストを反転
 const rotate = (e) => {
     e.target.classList.toggle("rotate")
 }
