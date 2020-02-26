@@ -1,22 +1,20 @@
-//
-function toggleNav() {
-  var body = document.body;
-  var hamburger = document.getElementById('js-hamburger');
 
-  hamburger.addEventListener('click', function () {
-    console.log("test")
+// function toggleNav() {
+//   var body = document.body;
+//   var hamburger = document.getElementById('js-hamburger');
+
+//   hamburger.addEventListener('click', function () {
+//     body.classList.toggle('nav-open');
+//   });
+
+// }
+// toggleNav();
+
+const toggleNav = () => {
+  let body = document.body;
+  let hamburger = document.getElementById('js-hamburger');
+  hamburger.addEventListener('click', () => {
     body.classList.toggle('nav-open');
-  });
-
-}
-toggleNav();
-/*
-function toggleImg() {
-  var img = document.getElementById("img_4");
-
-  img.addEventListener('mouseover', function () {
-    console.log("test");
   })
 }
-toggleImg();
-*/
+toggleNav()
