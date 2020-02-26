@@ -214,11 +214,12 @@
     height: 55px;
     background-color: #918F89;
     z-index: 100;
+    padding: 3% 0 3% 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   body header p {
     width: 15%;
-    height: 30px;
-    padding-top: 3%;
     margin: 0 0 0 42.5%;
     color: #FFFFFF;
     text-align: center;
@@ -267,7 +268,7 @@
   body header .global-nav #pc_list {
     width: 100%;
     list-style: none;
-    padding: 0;
+    padding-left: 0;
     margin: 0;
   }
   body header .global-nav #pc_list .global-nav__item {
@@ -279,17 +280,20 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    height: 100%;
   }
   body header .global-nav #pc_list .global-nav__item a {
-    padding-top: 25px;
-    height: 56px;
-    display: block;
+    padding-top: 31.5px;
+    padding-bottom: 31.5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-bottom: 1px solid #eee;
     text-decoration: none;
     color: #FFFFFF;
   }
   body main {
     width: 100%;
+    margin-bottom: 150px;
   }
   body main h1 {
     margin: 0;
@@ -300,7 +304,8 @@
     width: 100%;
     height: 454px;
     color: #FFFFFF;
-    padding-top: 131px;
+    padding: 131px 0 300px 0;
+    text-align: center;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     font-size: 30px;
@@ -369,7 +374,6 @@
   }
   body footer {
     width: 100%;
-    margin-top: 150px;
     height: 276px;
     background-color: #918F89;
     display: -webkit-box;
