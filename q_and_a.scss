@@ -57,24 +57,27 @@ body{
             box-sizing: border-box;
             color: #FFFFFF;
             font-weight: lighter;
+            margin-bottom: 69px;
         }
         .qa_container{
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 100%;
+            padding: 0 35%;
+            box-sizing: border-box;
             h2{
                 font-size: 21px;
                 color: #3B3B3B;
                 font-weight: lighter;
-                margin: 69px 0 102px;
+                margin: 0 0 102px 0;
                 
             }
             .q_and_a_content{
                 list-style: none;
                 padding-left: 0;
                 margin: 0 0 123px 0;
-                width: 37%;
+                width: 100%;
                 div{
                     display: flex;
                     flex-direction: row-reverse;
@@ -248,7 +251,7 @@ body{
             width: 100%;
             margin-bottom: 150px;
             h1{
-                margin: 0;
+                margin: 0 0 72px 0;
                 background-image: url("./img/AdobeStock_8_s.png");
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -267,16 +270,18 @@ body{
                 flex-direction: column;
                 align-items: center;
                 width: 100%;
+                padding: 0 15%;
+                box-sizing: border-box;
                 h2{
                     font-size: 21px;
                     color: #3B3B3B;
                     font-weight: lighter;
-                    margin: 72px 0 50px 0;
+                    margin: 0 0 50px 0;
                 }
                 .q_and_a_content{
                     list-style: none;
                     margin: 0;
-                    width: 70%;
+                    width: 100%;
                     div{
                         display: flex;
                         flex-direction: row-reverse;
