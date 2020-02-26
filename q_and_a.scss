@@ -330,7 +330,7 @@ body{
         }
     }
     .nav-open .hamburger__line--top {
-        transform: rotate(405deg);
+        transform: rotate(45deg);
         margin-top: 12px;
     }
     .nav-open .hamburger__line--middle {
@@ -339,7 +339,7 @@ body{
         opacity: 0;
     }
     .nav-open .hamburger__line--bottom {
-        transform: rotate(-405deg);
+        transform: rotate(-45deg);
         margin-top: -12px;
     }
     .nav-open .global-nav {

@@ -761,8 +761,8 @@
     text-align: center;
   }
   .nav-open .hamburger__line--top {
-    -webkit-transform: rotate(405deg);
-            transform: rotate(405deg);
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
     margin-top: 12px;
   }
   .nav-open .hamburger__line--middle {
@@ -771,8 +771,8 @@
     opacity: 0;
   }
   .nav-open .hamburger__line--bottom {
-    -webkit-transform: rotate(-405deg);
-            transform: rotate(-405deg);
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
     margin-top: -12px;
   }
   .nav-open .global-nav {
