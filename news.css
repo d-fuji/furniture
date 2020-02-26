@@ -303,7 +303,7 @@
     margin-bottom: 150px;
   }
   body main h1 {
-    margin: 0;
+    margin: 0 0 70px 0;
     background-image: url("./img/AdobeStock_7_s.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -333,10 +333,9 @@
     padding: 0 10% 15% 10%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    margin-top: 70px;
   }
   body main .news h2 {
-    margin-top: 0 0 70px 0;
+    margin-bottom: 70px;
     font-size: 25px;
     font-weight: lighter;
     color: #3B3B3B;
@@ -352,6 +351,7 @@
             flex-direction: column;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    margin-bottom: 50px;
   }
   body main .news .container_wrapper .container {
     position: relative;
@@ -377,11 +377,9 @@
     font-family: "";
   }
   body main .news a {
-    margin-top: 5%;
     text-decoration: none;
     color: #000000;
     font-size: 21px;
-    margin-top: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
