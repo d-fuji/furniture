@@ -1,4 +1,39 @@
 @charset "UTF-8";
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @media screen and (min-width: 480px) {
   /*ウィンドウ幅が最大479pxまでの場合に適用*/
   body {
@@ -164,33 +199,9 @@
     -webkit-animation: fadeIn 1s ease 0s 1 forwards;
             animation: fadeIn 1s ease 0s 1 forwards;
   }
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
   body main .qa_container .q_and_a_content div .list_title .fadeout {
     -webkit-animation: fadeOut 1s ease 0s 1 forwards;
             animation: fadeOut 1s ease 0s 1 forwards;
-  }
-  @-webkit-keyframes fadeOut {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  @keyframes fadeOut {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
   }
   body footer {
     width: 100%;
@@ -431,41 +442,9 @@
     -webkit-animation: fadeIn 1s ease 0s 1 forwards;
             animation: fadeIn 1s ease 0s 1 forwards;
   }
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
   body main .qa_container .q_and_a_content div .list_title .fadeout {
     -webkit-animation: fadeOut 1s ease 0s 1 forwards;
             animation: fadeOut 1s ease 0s 1 forwards;
-  }
-  @-webkit-keyframes fadeOut {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-  @keyframes fadeOut {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
   }
   body footer {
     width: 100%;

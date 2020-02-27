@@ -1,3 +1,19 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 @media screen and (min-width: 480px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
 body{
     font-family: Noto Sans;
@@ -126,25 +142,9 @@ body{
                         }
                         .fadein{
                             animation: fadeIn 1s ease 0s 1 forwards;
-                            @keyframes fadeIn {
-                                0% {
-                                    opacity: 0;
-                                }
-                                100% {
-                                    opacity: 1;
-                                }
-                            }
                         }
                         .fadeout{
                             animation: fadeOut 1s ease 0s 1 forwards;
-                            @keyframes fadeOut {
-                                0% {
-                                    opacity: 1;
-                                }
-                                100% {
-                                    opacity: 0;
-                                }
-                            }
                         }
                     }
                 }
@@ -208,17 +208,6 @@ body{
         transform: rotate(180deg);
         position: absolute;
     }
-    // .feedin{
-    //     animation: fadeIn 1s ease 0s 1 normal;
-    //     @keyframes fadeIn {
-    //         0% {
-    //             opacity: 0;
-    //         }
-    //         100% {
-    //             opacity: 1;
-    //         }
-    //     }
-    // }
 }
 }
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
@@ -358,25 +347,9 @@ body{
                             }
                             .fadein{
                                 animation: fadeIn 1s ease 0s 1 forwards;
-                                @keyframes fadeIn {
-                                    0% {
-                                        opacity: 0;
-                                    }
-                                    100% {
-                                        opacity: 1;
-                                    }
-                                }
                             }
                             .fadeout{
                                 animation: fadeOut 1s ease 0s 1 forwards;
-                                @keyframes fadeOut {
-                                    0% {
-                                        opacity: 1;
-                                    }
-                                    100% {
-                                        opacity: 0;
-                                    }
-                                }
                             }
                         }
                     }
