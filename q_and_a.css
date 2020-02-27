@@ -3,6 +3,24 @@
   /*ウィンドウ幅が最大479pxまでの場合に適用*/
   body {
     font-family: Noto Sans;
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+            animation: fadeIn 1s ease 0s 1 normal;
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   body header {
     height: 60px;
@@ -205,6 +223,18 @@
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
     position: absolute;
+  }
+  body .feedin {
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+            animation: fadeIn 1s ease 0s 1 normal;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
 
@@ -436,6 +466,26 @@
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
     position: absolute;
+  }
+  .feedin {
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+            animation: fadeIn 1s ease 0s 1 normal;
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
 /*# sourceMappingURL=q_and_a.css.map */

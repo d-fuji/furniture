@@ -3,6 +3,24 @@
   /*ウィンドウ幅が最大479pxまでの場合に適用*/
   body {
     font-family: Noto Sans;
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+            animation: fadeIn 1s ease 0s 1 normal;
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   body header {
     height: 60px;
