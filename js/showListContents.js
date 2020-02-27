@@ -1,10 +1,9 @@
 //内容の表示切り替え
-let open = [];
+const open = [];
 const n = document.getElementsByClassName("list_article");
 for (let i = 0; i < n.length; i++) {
     open.push("false")
 }
-
 const openHideArticle = (num) => {
     let listArticle = document.getElementsByClassName("list_article")[num];
     if (open[num]) {
