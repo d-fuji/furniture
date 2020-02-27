@@ -106,13 +106,45 @@ body{
                             color: #3B3B3B;
                         }
                         .list_article{
-                            visibility: hidden;
+                            //visibility: hidden;
                             font-size: 12px;
                             font-weight: lighter;
                             color: #3B3B3B;
                             margin: 0;
                             padding: 30px 0;
                             box-sizing: border-box;
+                            opacity: 0;
+                            // animation: fadeOut 1s ease 0s 1 forwards;
+                            //     @keyframes fadeIn {
+                            //     0% {
+                            //         opacity: 1;
+                            //     }
+                            //     100% {
+                            //         opacity: 0;
+                            //     }
+                            // }
+                        }
+                        .fadein{
+                            animation: fadeIn 1s ease 0s 1 forwards;
+                            @keyframes fadeIn {
+                                0% {
+                                    opacity: 0;
+                                }
+                                100% {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        .fadeout{
+                            animation: fadeOut 1s ease 0s 1 forwards;
+                            @keyframes fadeOut {
+                                0% {
+                                    opacity: 1;
+                                }
+                                100% {
+                                    opacity: 0;
+                                }
+                            }
                         }
                     }
                 }
@@ -176,17 +208,17 @@ body{
         transform: rotate(180deg);
         position: absolute;
     }
-    .feedin{
-        animation: fadeIn 1s ease 0s 1 normal;
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-    }
+    // .feedin{
+    //     animation: fadeIn 1s ease 0s 1 normal;
+    //     @keyframes fadeIn {
+    //         0% {
+    //             opacity: 0;
+    //         }
+    //         100% {
+    //             opacity: 1;
+    //         }
+    //     }
+    // }
 }
 }
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
@@ -376,16 +408,5 @@ body{
     .rotate{
         transform: rotate(180deg);
         position: absolute;
-    }
-    .feedin{
-        animation: fadeIn 1s ease 0s 1 normal;
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
     }
 }
