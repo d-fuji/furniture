@@ -1,82 +1,112 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./index.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <title>事前課題1_index</title>
-  </head>
-  <body>
+    <title>家具屋/ホーム</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
     <header class="header">
-      <div id="logo">HTML CSS</div>
-      <nav id="nav">
-        <div id="about"><a href="./index.html">About</a></div>
-        <div id="news"><a href="./news.html">News</a></div>
-        <div id="qa"><a href="./q_and_a.html">Q&A</a></div>
-      </nav>
+        <p id="header_logo">HTML CSS</p>
+        <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--middle"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+        </div>
+        <nav class="global-nav">
+            <ul id="pc_list">
+                <li id="list_about" class="global-nav__item"><a href="./index.html">About</a></li>
+                <li id="list_news" class="global-nav__item"><a href="./news.html">News</a></li>
+                <li id="list_qa" class="global-nav__item"><a href="./q_qnd_a.html">Q&A</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="img_1_space">
-      <img src="./img/AdobeStock_img1.png">
-      <div>
-        <a>We propose a life.</a>
-      </div>
-    </div>
+    <main class="main">
+        <h1 id="comment_m">
+            <span class="first_line">We</span>
+            <span class="second_line">propose</span>
+            <span class="third_line">a life.</span>
+        </h1>
+        <section class="proposal">
+            <div class="proposal_container">
+                <h2 id="img_2_top">暮らしを提案する。</h2>
+                <p id="img_2_content">
+                    私たちは、家具を売るのではなく、お客様の理想とする<br>
+                    「暮らし」を提案します。<br>
+                    仕事で疲れた後に帰りたくなる、<br>
+                    今日も１日頑張ろうと思える、<br>
+                    そんな空間をお客様と一緒に作り上げていくのが私たちの仕事です。
+                </p>
+            </div>
+            <img src="./img/AdobeStock_img2.png" alt="">
+        </section>
 
-    <img src="./img/AdobeStock_img2.png" id="img_2">
-    <h1 id="img_2_top">暮らしを提案する</h1>
-    <p id="img_2_content">私たちは、家具を売るのではなく、お客様の理想とする <br>「暮らし」を提案します。 <br>仕事で疲れた後に帰りたくなる、 <br>今日も１日頑張ろうと思える、 <br>そんな空間をお客様と一緒に作り上げていくのが私たちの仕事です。</p>
 
-    <div id="img_3_content">豊富なスタイル</div>
-    <div id="img_3_space">
-      <img src="./img/AdobeStock_img3.png">
-    </div>
+        <section class="chair">
+            <h2 id="img_3_content">豊富なスタイル</h2>
+            <ul id="select_btn">
+                <li class="hidari_maru">●</li>
+                <li class="center_maru">●</li>
+                <li class="migi_maru">●</li>
+            </ul>
+        </section>
 
-    <div id="news_head">News</div>
-    <div id="img_4_space">
-      <img src="./img/AdobeStock_img4.png">
-    </div>
-    <div id="img_5_space">
-      <img src="./img/AdobeStock_img5.png">
-    </div>
-    <div id="img_6_space">
-      <img src="./img/AdobeStock_img6.png">
-    </div>
-    <div id="view_more">
-      <p>view more</p>
-    </div>
+        <section class="news">
+            <h2 class="news_top">News</h2>
+            <div class="container_wrapper">
+                <div class="container">
+                    <img src="./img/AdobeStock_img4.png" alt="">
+                    <span class="text">アームストロングのカウチ入荷</span>
+                </div>
 
-    <form class="form_group" action="index.html" method="post">
-      <p>CONTACT</p>
-      <div>
-          <input type="text" id="name" name="name" placeholder="お名前">
-      </div>
-      <div>
-          <input type="text" id="email" name="email" placeholder="メールアドレス">
-      </div>
-      <textarea name="content" id="content" rows="8" cols="80" placeholder="お問い合わせ内容"></textarea>
-      <div id="submit">
-        <input type="submit" name="submit" value="送信">
-      </div>
-    </form>
+                <div class="container">
+                    <img src="./img/AdobeStock_img5.png" alt="">
+                    <span class="text">アームストロングのチェア再入荷</span>
+                </div>
+
+                <div class="container">
+                    <img src="./img/AdobeStock_img6.png" alt="">
+                    <span class="text">アームストロングのテーブル入荷</span>
+                </div>
+            </div>
+            <a href="./news.html">view more</a>
+
+        </section>
+
+        <section class="form">
+            <h2 id="form_head">CONTACT</h2>
+            <form class="form_group" action="index.html" method="post">
+                <input type="text" id="name" name="name" placeholder="お名前">
+                <input type="text" id="email" name="email" placeholder="メールアドレス">
+                <textarea name="content" id="content" rows="8" cols="80" placeholder="お問い合わせ内容"></textarea>
+                <input type="submit" name="submit" value="SEND" id="submit">
+            </form>
+        </section>
+
+    </main>
+
+
     <footer class="footer">
-      <div id="logo">
-        HTML CSS
-      </div>
-      <div id="about">
-        <a href="./index.html">About</a>
-      </div>
-      <div id="news">
-        <a href="./news.html">News</a>
-      </div>
-      <div id="qa">
-        <a href="./q_and_a.html">Q&A</a>
-      </div>
-      <div id="copy_right">
-        @HTMLCSS.code
-      </div>
+        <p id="logo">
+            HTML<br>
+            CSS
+        </p>
+        <ul>
+            <li id="list_first"><a href="./index.html">About</a></li>
+            <li id="list_second"><a href="./news.html">News</a></li>
+            <li id="list_third"><a href="./q_qnd_a.html">Q&A</a></li>
+        </ul>
+        <p id="end">@HTMLCSS.code</p>
     </footer>
-  </body>
+    <script src="js/headerHamburger.js"></script>
+
+</body>
+
 </html>
