@@ -2,21 +2,27 @@
 const open = [];
 const n = document.getElementsByClassName("list_article");
 for (let i = 0; i < n.length; i++) {
-    open.push("false")
+    open.push(false)
 }
+
 const openHideArticle = (num) => {
-    let listArticle = document.getElementsByClassName("list_article")[num];
     if (open[num]) {
-        listArticle.style.visibility = "hidden";
+        document.getElementsByClassName("list_article")[num].classList.remove("fadein")
+        document.getElementsByClassName("list_article")[num].classList.add("fadeout")
         open[num] = false
     }
     else {
-        listArticle.style.visibility = "visible";
+        document.getElementsByClassName("list_article")[num].classList.remove("fadeout")
+        document.getElementsByClassName("list_article")[num].classList.add("fadein")
         open[num] = true
     }
+    // document.getElementsByClassName("list_article")[num].classList.("feedin")
+    // document.getElementsByClassName("list_article")[num].classList.toggle("feedout")
 }
 
 //リストの横のイラストを反転
 const rotate = (e) => {
     e.target.classList.toggle("rotate")
 }
+
+
